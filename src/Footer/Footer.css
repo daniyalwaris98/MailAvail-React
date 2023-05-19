@@ -1,0 +1,19 @@
+footer {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+
+  /* Custom/Secondary Button BG - Hollow button border */
+
+  color: #424867;
+}
+footer p {
+  display: inline-flex;
+  height: 40px;
+}
+.cyan {
+  color: #22d3ee;
+}

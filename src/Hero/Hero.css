@@ -1,0 +1,56 @@
+.hero h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  padding-top: 43px;
+  margin-bottom: 40px;
+}
+.hero-paragraph {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 145.52%;
+
+  /* slate/500 */
+
+  color: #64748b;
+  margin-bottom: 55px;
+}
+
+.hero-btns button {
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0px 10px;
+}
+.hero-btn1 {
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: linear-gradient(90deg, #f158c0 0%, #6e49f5 100%);
+  border-radius: 10px;
+  padding: 12px 14px;
+  color: #f9fafb;
+}
+
+.hero-btn2 {
+  background-color: white;
+  border-radius: 10px;
+  padding: 12px 56px;
+  color: linear-gradient(90deg, #f158c0 0%, #6e49f5 100%);
+}
+footer {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+
+  /* Custom/Secondary Button BG - Hollow button border */
+
+  color: #424867;
+}

@@ -1,0 +1,113 @@
+.benefits-section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1345px;
+  width: 100%;
+}
+
+.benefits-header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  /* identical to box height, or 72px */
+
+  letter-spacing: -0.011em;
+
+  /* black */
+
+  color: #000000;
+  margin-bottom: 50px;
+}
+.benefits-container {
+  padding: 10px 20px;
+  margin: auto;
+}
+.solutions-container {
+  padding: 10px 20px;
+  max-width: 80%;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.benefitcards {
+  margin-left: 60px;
+}
+.solutioncards {
+  width: 70%;
+  margin: auto;
+}
+.benefitcard {
+  flex: 0 0 calc(33.3% - 30px);
+  max-width: calc(33.3% - 30px);
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.solutioncard {
+  flex: 0 0 calc(50% - 30px);
+  max-width: calc(50% - 20px);
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card h1 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #111827;
+  margin: 20px 0px;
+}
+
+.card img {
+  display: block;
+}
+.card p {
+  text-align: left;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  /* Custom/Secondary Button BG - Hollow button border */
+
+  color: #424867;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.tag {
+  text-align: left;
+}
+.tag > p {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* orange/600 */
+
+  color: #ea580c;
+  background: #fed7aa;
+  border-radius: 32px;
+  padding: 3px 16px 3px 10px;
+  margin-bottom: 10px;
+}
+
+.solutions-icon {
+  float: left;
+  margin-right: 2px;
+  height: 17px;
+  width: 17px;
+  padding: 1px;
+}

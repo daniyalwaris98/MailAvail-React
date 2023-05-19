@@ -1,0 +1,68 @@
+.credits-section {
+  background: #edeff9;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 15px;
+  gap: 28px;
+  isolation: isolate;
+  margin: 50px 150px;
+}
+
+.credits-section h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+  margin: 0px;
+  text-align: center;
+  color: #111827;
+}
+
+.credits-section h2 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height, or 121% */
+
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  text-align: center;
+  order: -1;
+  padding: 6px;
+  color: #db2777;
+  background-color: #fbcfe8;
+  border-radius: 32px;
+}
+
+.credits-img {
+  float: left;
+  margin-right: 6px;
+  height: 16px;
+}
+.credits-section p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  /* Custom/Secondary Button BG - Hollow button border */
+
+  color: #424867;
+}
+.credits-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  /* Gradients/Synth */
+
+  background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin: 0px;
+}
