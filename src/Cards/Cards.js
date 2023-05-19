@@ -2,5 +2,9 @@ import "./Cards.css";
 import { RenderCards } from "./RenderCards";
 
 export function Cards({ text, type }) {
-  return <RenderCards type={type} text={text} />;
+  return (
+    <div onScroll={reveal}>
+      <RenderCards type={type} text={text} />;
+    </div>
+  );
 }

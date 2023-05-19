@@ -15,6 +15,29 @@ import { Credits } from "./Credits/Credits";
 import { Footer } from "./Footer/Footer";
 
 function App() {
+  document.addEventListener("scroll", reveal);
+
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+
+    for (var i = 0; i < reveals.length; i++) {
+      var windoeHeight = window.innerHeight;
+      var revealtop = reveals[i].getBoundingClientRect().top;
+      var revealpoint = 165;
+      if (revealtop < windoeHeight - revealpoint) {
+        reveals[i].classList.add("active");
+        console.log(
+          `From if windowHeight ${windoeHeight} revealTop ${revealtop} `
+        );
+      } else {
+        console.log(
+          `From else windowHeight ${windoeHeight} revealTop ${revealtop} `
+        );
+
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
   return (
     <div className="App">
       <Navbar />
@@ -25,7 +48,6 @@ function App() {
       <Cards text="Email Verification Solutions Include" type="solutions" />
       <Credits />
       <Footer />
-
       {/* <Welcome />
       <FunctionClick />
       <ClassClick />

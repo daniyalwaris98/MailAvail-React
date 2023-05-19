@@ -1,15 +1,17 @@
+:root {
+  --navHeight: 68px;
+}
 .navbar {
-  position: relative;
-
+  z-index: 999;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: calc(100vw - 25px);
-  position: relative;
   top: 0%;
   left: 0%;
   background-color: rgb(255, 255, 255);
-  height: 68px;
+  height: var(--navHeight);
 
   /* margin: 0px 10px; */
   padding-left: 20px;

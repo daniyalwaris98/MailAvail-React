@@ -5,6 +5,7 @@
   text-align: center;
   padding-top: 43px;
   margin-bottom: 40px;
+  margin-top: calc(var(--navHeight) + 33px);
 }
 .hero-paragraph {
   text-align: center;
