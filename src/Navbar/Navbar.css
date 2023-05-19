@@ -50,12 +50,10 @@
   padding: 24px 20px;
   text-decoration: none;
   color: black;
-  /* margin: 0px 25px; */
   gap: 20px;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  /* identical to box height, or 143% */
 
   text-align: center;
 }
@@ -82,3 +80,8 @@
 .nav-btn1 {
   border: 2px solid rgba(0, 0, 0, 0.05);
 }
+/* @media only screen and (min-width: 390px) and (max-width: 650px) {
+  .navbar-links {
+    display: none;
+  }
+} */

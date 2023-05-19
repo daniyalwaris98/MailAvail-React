@@ -79,7 +79,7 @@ export function RenderCards({ type, text }) {
 
   return (
     <div className="benefits-section reveal">
-      <h1 class="benefits-header">{text}</h1>
+      <h1 className="benefits-header">{text}</h1>
       <div
         className={
           type == "benefits" ? "benefitcards cards" : "solutioncards cards"
@@ -95,7 +95,7 @@ export function RenderCards({ type, text }) {
             {type == "benefits" ? (
               <img src={Icon} alt="Smiley Icon" />
             ) : (
-              <div class="tag">
+              <div className="tag">
                 <p>
                   <img
                     src={Icon2}

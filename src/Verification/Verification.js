@@ -9,7 +9,7 @@ export function Verification() {
           <div className="group1">
             <p>Write an email for Verification</p>
             <div className="searcharea">
-              <input type="text" placeholder="john@doe.com" />
+              <input type="text" placeolder="john@doe.com" />
               <button type="submit">Test My Email</button>
             </div>
           </div>
@@ -20,7 +20,7 @@ export function Verification() {
               name="fav_language"
               value="HTML"
             />
-            <label for="requesting-host">Requesting Host</label>
+            <label htmlFor="requesting-host">Requesting Host</label>
             <br />
             <input
               type="radio"
@@ -28,7 +28,7 @@ export function Verification() {
               name="fav_language"
               value="HTML"
             />
-            <label for="requesting-host">Extracting MX Record</label>
+            <label htmlFor="requesting-host">Extracting MX Record</label>
             <br />
             <input
               type="radio"
@@ -36,7 +36,7 @@ export function Verification() {
               name="fav_language"
               value="HTML"
             />
-            <label for="Mx-Record">Validating Email</label>
+            <label htmlFor="Mx-Record">Validating Email</label>
             <br />
             <input
               type="radio"
@@ -44,7 +44,7 @@ export function Verification() {
               name="fav_language"
               value="HTML"
             />
-            <label for="requesting-host">Calculating Score</label>
+            <label htmlFor="requesting-host">Calculating Score</label>
             <br />
           </div>
         </div>

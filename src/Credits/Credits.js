@@ -14,7 +14,7 @@ export function Credits() {
         Totally free for first 500 Emails. Just sign up and start Verifying
         Email
       </p>
-      <p class="credits-text">Get started for free </p>
+      <p className="credits-text">Get started for free </p>
     </div>
   );
 }

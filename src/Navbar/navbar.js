@@ -5,7 +5,7 @@ export function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-brand">
-        <img src={logo} alt="" class="navbar-logo" />
+        <img src={logo} alt="" className="navbar-logo" />
         <p className="brand-name">Mailavail</p>
       </div>
       <div className="navbar-links">

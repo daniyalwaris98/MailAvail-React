@@ -30,3 +30,9 @@ code {
   transform: translateY(0px);
   opacity: 1;
 }
+
+@media only screen and (min-width: 390px) and (max-width: 650px) {
+  .navbar-links {
+    display: none;
+  }
+}
